@@ -2,29 +2,41 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  // code
+  { name: "Python", level: 95, category: "code" },
+  { name: "Lua", level: 90, category: "code" },
+  { name: "HTML/CSS", level: 90, category: "code" },
+  { name: "C", level: 80, category: "code" },
+  { name: "Java", level: 75, category: "code" },
+  { name: "JavaScript", level: 70, category: "code" },
 
-  // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  // ai
+  { name: "RAG", level: 90, category: "ai" },
+  { name: "Fine Tuning", level: 85, category: "ai" },
+  { name: "LLM", level: 80, category: "ai" },
+  { name: "ML", level: 70, category: "ai" },
+  { name: "DL", level: 65, category: "ai" },
+  { name: "MCP", level: 60, category: "ai" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", level: 100, category: "tools" },
+  { name: "VS Code", level: 100, category: "tools" },
+  { name: "After Effect", level: 95, category: "tools" },
+  { name: "Cinema 4D", level: 95, category: "tools" },
+  { name: "Blender", level: 95, category: "tools" },
+  { name: "AutoCAD", level: 95, category: "tools" },
+  { name: "Premiere Pro", level: 95, category: "tools" },
+  { name: "Illustrator", level: 90, category: "tools" },
+  { name: "Photoshop", level: 90, category: "tools" },
+  { name: "Lightroom", level: 90, category: "tools" },
+  { name: "InDesign", level: 80, category: "tools" },
+  { name: "InCopy", level: 80, category: "tools" },
+  { name: "Dreamweaver", level: 80, category: "tools" },
+  { name: "Figma", level: 70, category: "tools" },
+  { name: "Docker", level: 60, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "code", "ai", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

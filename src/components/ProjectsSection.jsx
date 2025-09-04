@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Under construction",
+    description: "페이지 준비중 ꒰◍ˊ◡ˋ꒱੭⁾⁾",
+    image: "/projects/Underconstruction.png",
+    tags: ["Null", "Null", "Null"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Under construction",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "페이지 준비중 ꒰◍ˊ◡ˋ꒱੭⁾⁾",
+    image: "/projects/Underconstruction.png",
+    tags: ["Null", "Null", "Null"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Under construction",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "페이지 준비중 ꒰◍ˊ◡ˋ꒱੭⁾⁾",
+    image: "/projects/Underconstruction.png",
+    tags: ["Null", "Null", "Null"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -42,8 +42,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          진행한 프로젝트 몇 가지를 소개합니다
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,9 +99,9 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/w4vyx"
           >
-            Check My Github <ArrowRight size={16} />
+            Github <ArrowRight size={16} />
           </a>
         </div>
       </div>
