@@ -1,9 +1,9 @@
 import { ArrowDown } from "lucide-react";
 
-export const HeroSection = () => {
+export const MainSection = () => {
   return (
     <section
-      id="hero"
+      id="main"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
@@ -21,7 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            본업은 용기사 입니다
+            본업은 용기사
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

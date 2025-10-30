@@ -9,7 +9,7 @@ export const Footer = () => {
         &copy; {new Date().getFullYear()} w4vyx. All rights reserved.
       </p>
       <a
-        href="#hero"
+        href="#main"
         className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"
       >
         <ArrowUp size={20} />
